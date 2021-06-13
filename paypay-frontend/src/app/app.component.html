@@ -1,0 +1,10 @@
+<div class="wrapper" #wrapper>
+  <app-loader [hidden]="!showLoader" class="loaderContainer"></app-loader>
+  <app-header class="header sticky-top" [isLoggedIn]="isLoggedIn$ | async">
+  </app-header>
+  <main class="w1 d-flex">
+    <div class="container-fluid d-flex flex-column">
+      <router-outlet></router-outlet>
+    </div>
+  </main>
+</div>

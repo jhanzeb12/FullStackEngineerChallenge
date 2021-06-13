@@ -1,0 +1,19 @@
+<nav id="sidebarMenu" [style]="'width:100%;'">
+  <div class="position-sticky pt-3">
+    <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+      <span>Dashboard</span>
+    </h6>
+    <ul class="nav flex-column">
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="['/admin/employees-list']" href="#">
+          Manage Employees
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">
+          Manage Feedbacks
+        </a>
+      </li>
+    </ul>
+  </div>
+</nav>

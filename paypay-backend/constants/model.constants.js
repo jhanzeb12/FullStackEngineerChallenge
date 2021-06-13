@@ -1,0 +1,1 @@
+exports.TABLE_EMPLOYEE_NAME = 'T_Employee';

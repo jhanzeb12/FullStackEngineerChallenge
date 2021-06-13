@@ -1,0 +1,23 @@
+.app-loader {
+  display: block;
+  width: calc(100vw - 0px);
+  height: calc(100vh - 0px);
+  position: absolute;
+  z-index: 999;
+}
+.loading {
+  position: absolute;
+  left: calc(100vw - 43% - 116px);
+  top: calc(100vh - 43% - 116px);
+  z-index: 999;
+  width: 100px;
+  height: 100px;
+}
+
+:host {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  z-index: 999;
+}

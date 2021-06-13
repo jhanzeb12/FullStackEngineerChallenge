@@ -1,0 +1,37 @@
+.header {
+  box-shadow:0 0 5px 0 rgba($black, 0.13);
+  z-index: 9;
+  position: relative;
+  background: #fff;
+  .main_menu {
+      flex:1 0 auto;
+      .has-megamenu {
+          position: static;
+      }
+  }
+}
+
+.sticky-top {
+  top: 0px;
+  position: sticky;
+  z-index: 1020;
+}
+
+.navbar-nav {
+  .nav-item {
+      .nav-link {
+          &:focus,
+          &:active,
+          &.active,
+          &:hover {
+              background: #b40001;
+              color: #fff;
+          }
+      }
+ }
+ .show {
+  .nav-link {
+      background: transparent;
+  }
+ }
+}
