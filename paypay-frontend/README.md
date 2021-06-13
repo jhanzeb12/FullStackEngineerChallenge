@@ -20,6 +20,7 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 - Loader service is implemented (You will see a loader working on every http call)
 - Add/ Edit/ Delete Employee is implemented (under Manage Employees in Admin View);
 - Provided the complete folder structure so anybody can use it to extend the application
+- Created the SCSS architecture too.
 
 ## Assumptions
 - User is always authenticated (as authorization/ authentication is not implemented)
